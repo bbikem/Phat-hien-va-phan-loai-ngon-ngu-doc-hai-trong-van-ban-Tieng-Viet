@@ -160,7 +160,7 @@ Màu chủ đạo: **xanh – cam – trắng** theo đúng UI bạn đang dùng
 
 ```
 
-## 6. Sơ đồ kiến trúc
+## VI. Sơ đồ kiến trúc
 
 Hệ thống gồm 4 lớp chính:
 
