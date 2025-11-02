@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Phát hiện & Highlight ngôn ngữ độc hại</title>
+  <link rel="stylesheet" href="/static/style.css" />
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+  <header class="brand-header">
+    <div class="brand-wrap center">
+      <!-- Đặt file logo tại: static/dainam_logo.png -->
+      <img src="/static/dainam_logo.png" class="brand-logo-img" alt="Dai Nam University" />
+      <div class="brand-title center">
+        <h1>Phát hiện và <span class="accent">Phân loại</span> ngôn ngữ độc hại</h1>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="grid">
+      <div class="card">
+        <h2 class="title-chip">Phân tích đoạn phản hồi</h2>
+        
+        <textarea id="text" rows="5" placeholder="VD: Thằng thối lợm kia học dốt quá."></textarea>
+        <div class="actions">
+          <button id="btnPredict">Phân tích</button>
+          <button id="btnClear" class="ghost">Xóa</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="title-chip">Phân tích file (CSV / TXT / XLSX / DOCX / PDF)</h2>
+        <input type="file" id="fileInput" accept=".csv,.txt,.xlsx,.xls,.docx,.pdf" />
+        <div class="actions">
+          <button id="btnUpload">Tải lên & phân tích</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Thanh điều khiển ngưỡng & Redact -->
+    <section class="card controls">
+      <div class="controls-row">
+        <div class="ctrl-item">
+          <label for="thSlider">Ngưỡng cảnh báo: <b><span id="thVal">50</span>%</b></label>
+          <input type="range" id="thSlider" min="0" max="100" value="50" step="1" />
+        </div>
+        <div class="ctrl-item">
+          <label class="switch">
+            <input type="checkbox" id="redactToggle" />
+            <span class="slider"></span>
+          </label>
+          <span style="margin-left:8px;">Ẩn phần bị gắn cờ (***, Redact)</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="card results" id="results_card" style="display:none;">
+      <h2>Kết quả</h2>
+      <div id="result_line" class="result-line"></div>
+
+      <div id="highlighted_wrap" style="display:none; margin-top:14px;">
+        <label>Văn bản:</label>
+        <div id="highlighted_text" class="highlight-box"></div>
+      </div>
+
+      <div id="spans_wrap" style="display:none; margin-top:14px;">
+        <label>Các đoạn bị gắn cờ (span):</label>
+        <table class="table" id="spans_table">
+          <thead><tr><th>Văn bản</th><th>Vị trí</th><th>Nguồn</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <div class="chart-wrap">
+        <h3>Xác suất (doughnut)</h3>
+        <div class="pie-holder small"><canvas id="probChart"></canvas></div>
+      </div>
+    </section>
+
+    <section class="card batch" id="batch_card" style="display:none;">
+      <h2>Kết quả phân tích file</h2>
+      <div class="chart-wrap">
+        <h3>Phân bố (Độc hại / Không độc hại)</h3>
+        <div class="pie-holder small"><canvas id="batchChart"></canvas></div>
+      </div>
+
+      <div style="margin-top:14px;">
+        <div class="actions" style="justify-content:flex-end;">
+          <button id="btnExportCSV" class="ghost">Xuất CSV</button>
+          <button id="btnExportDocx">Xuất DOCX (highlight)</button>
+        </div>
+        <label>Bảng tổng hợp (tối đa 200 dòng):</label>
+        <table class="table" id="batch_table">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Xác suất (%)</th>
+              <th>Kết luận</th>
+              <th>Văn bản</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- HƯỚNG DẪN SỬ DỤNG -->
+    <section class="card guide-card" id="guide_card">
+      <h2>Hướng dẫn sử dụng</h2>
+      <ol class="guide-list">
+        <li><b>Phân tích 1 đoạn:</b> nhập văn bản &rarr; bấm <i>Phân tích</i>. Kết quả hiển thị highlight, bảng spans và biểu đồ doughnut (cam = xúc phạm, xanh = không).</li>
+        <li><b>Phân tích file:</b> chọn file <code>CSV/TXT/XLSX/DOCX/PDF</code> &rarr; bấm <i>Tải lên & phân tích</i>. Ứng dụng xử lý tối đa <b>200 dòng</b>.</li>
+        <li><b>Ngưỡng cảnh báo:</b> kéo thanh <i>ngưỡng</i> (mặc định 50%). Câu được xem là “Xúc phạm” nếu <code>prob ≥ ngưỡng</code> <u>hoặc</u> có span khớp từ điển.</li>
+        <li><b>Redact:</b> bật công tắc để ẩn phần vi phạm bằng <code>***</code> (phù hợp khi chiếu trước lớp).</li>
+        <li><b>Xuất kết quả:</b> dùng nút <i>Xuất CSV</i> hoặc <i>Xuất DOCX</i> (DOCX có highlight màu vàng).</li>
+        <li><b>Mẹo:</b> đặt <code>data_train.csv</code> cạnh <code>app.py</code> để huấn luyện nhanh theo dữ liệu của bạn; nếu không, app dùng bộ demo kèm theo.</li>
+      </ol>
+    </section>
+  </main>
+
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
