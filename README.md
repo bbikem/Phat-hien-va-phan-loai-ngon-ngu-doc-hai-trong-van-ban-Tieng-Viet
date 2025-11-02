@@ -36,7 +36,7 @@ VII. Cách cài đặt
 
 VIII. Hướng dẫn sử dụng
 
-IX. [Hướng mở rộng](#hướng-mở-rộng)
+IX. Hướng mở rộng
 
 ---
 
