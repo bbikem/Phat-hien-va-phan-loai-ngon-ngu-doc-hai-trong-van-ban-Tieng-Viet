@@ -317,7 +317,7 @@ python app.py
 
 **Phạm Thị Huyền Trang**  
 🎓 CNTT 16-05  
-🏛️ Khoa Công nghệ rhoong tin - Trường Đại học Đại Nam   
+🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam   
 
 [![Email](https://img.shields.io/badge/Email-bbikemcutie@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bbikemcutie@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-bbikem-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bbikem)
