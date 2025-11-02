@@ -20,21 +20,21 @@
 </div>
 
 ## Mục lục
-I. [Giới thiệu hệ thống]
+I. Giới thiệu hệ thống
 
-II. [Mục tiêu](#mục-tiêu)
+II. Mục tiêu
 
-III. [Công nghệ sử dụng](#công-nghệ-sử-dụng)
+III. Công nghệ sử dụng
 
-IV. [Tính năng / Chức năng của hệ thống](#tính-năng--chức-năng-của-hệ-thống)
+IV. Chức năng của hệ thống
 
-V. [Cấu trúc dự án](#cấu-trúc-dự-án)
+V. Cấu trúc dự án
 
-VI. [Sơ đồ kiến trúc](#sơ-đồ-kiến-trúc)
+VI. Sơ đồ kiến trúc
 
-VII. [Cách cài đặt](#cách-cài-đặt)
+VII. Cách cài đặt
 
-VIII. [Hướng dẫn sử dụng](#hướng-dẫn-sử-dụng)
+VIII. Hướng dẫn sử dụng
 
 IX. [Hướng mở rộng](#hướng-mở-rộng)
 
