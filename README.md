@@ -200,7 +200,7 @@ Hệ thống gồm 4 lớp chính:
      - Xuất kết quả dạng CSV/DOCX để nộp báo cáo
    - Có thể bổ sung bộ từ điển riêng theo từng khoa/lớp
 
-> `![Sơ đồ kiến trúc]([docs/architecture_dainam.svg](https://raw.githubusercontent.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/refs/heads/main/docs/architecture_dainam.svg))`
+> `![Sơ đồ kiến trúc](https://raw.githubusercontent.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/refs/heads/main/docs/architecture_dainam.svg)`
 
 ---
 
