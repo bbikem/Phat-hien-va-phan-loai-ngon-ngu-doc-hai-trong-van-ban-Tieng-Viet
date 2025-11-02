@@ -20,7 +20,7 @@
 </div>
 
 ## Mục lục
-I. [Giới thiệu hệ thống](#giới-thiệu-hệ-thống)
+I. [Giới thiệu hệ thống]
 
 II. [Mục tiêu](#mục-tiêu)
 
