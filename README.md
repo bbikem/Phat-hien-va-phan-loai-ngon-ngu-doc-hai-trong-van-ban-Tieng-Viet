@@ -313,8 +313,7 @@ python app.py
 
 ## 👨‍💻 Tác giả
 
-<img width="100" height="100" src="https://www.facebook.com/photo/?fbid=776760888610810&set=a.102069779413261" 
-alt="Phạm Thị Huyền Trang" style="border-radius: 50%;">
+<img width="100" height="100" src="https://www.facebook.com/photo/?fbid=776760888610810&set=a.102069779413261" alt="Phạm Thị Huyền Trang" style="border-radius: 50%;">
 
 **Phạm Thị Huyền Trang**  
 🎓 CNTT 16-05  
