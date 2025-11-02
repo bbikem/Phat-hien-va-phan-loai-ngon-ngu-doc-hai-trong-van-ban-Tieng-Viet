@@ -200,7 +200,7 @@ Hệ thống gồm 4 lớp chính:
      - Xuất kết quả dạng CSV/DOCX để nộp báo cáo
    - Có thể bổ sung bộ từ điển riêng theo từng khoa/lớp
 
-> ![Sơ đồ kiến trúc](https://raw.githubusercontent.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/refs/heads/main/docs/architecture_dainam.svg)
+![Sơ đồ kiến trúc](https://raw.githubusercontent.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/refs/heads/main/docs/architecture_dainam.svg)
 
 ---
 
@@ -313,7 +313,7 @@ python app.py
 
 ## 👨‍💻 Tác giả
 
-<img width="100" height="100" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/555574719_776760891944143_9050267463706707446_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=H85fhi_nK5IQ7kNvwH4KH9x&_nc_oc=Adn_PMHG0O43IHPaZBMgwLTCF_yWRnVf4sXhonUDBerWO1F4z1zddtqW9c0BR_cecu7lCnwScRjM1KUoYdpgr7kQ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=6Dut5TbBeQsQ3VJMHFPcSg&oh=00_AfihNpPeUa1HPtCSET8de7wPbpu2BsdsGGMfszm98t5WMA&oe=690CFACD" alt="Phạm Thị Huyền Trang" style="border-radius: 50%;">
+<img width="200" height="200" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/555574719_776760891944143_9050267463706707446_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=H85fhi_nK5IQ7kNvwH4KH9x&_nc_oc=Adn_PMHG0O43IHPaZBMgwLTCF_yWRnVf4sXhonUDBerWO1F4z1zddtqW9c0BR_cecu7lCnwScRjM1KUoYdpgr7kQ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=6Dut5TbBeQsQ3VJMHFPcSg&oh=00_AfihNpPeUa1HPtCSET8de7wPbpu2BsdsGGMfszm98t5WMA&oe=690CFACD" alt="Phạm Thị Huyền Trang" style="border-radius: 100%;">
 
 **Phạm Thị Huyền Trang**  
 🎓 CNTT 16-05  
