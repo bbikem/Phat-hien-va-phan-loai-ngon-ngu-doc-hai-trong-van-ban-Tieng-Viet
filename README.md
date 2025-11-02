@@ -314,7 +314,7 @@ python app.py
 ## 👨‍💻 Tác giả
 
 <img width="200" height="200" src="https://scontent.fhan15-1.fna.fbcdn.net/v/t39.30808-6/555574719_776760891944143_9050267463706707446_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=H85fhi_nK5IQ7kNvwH4KH9x&_nc_oc=Adn_PMHG0O43IHPaZBMgwLTCF_yWRnVf4sXhonUDBerWO1F4z1zddtqW9c0BR_cecu7lCnwScRjM1KUoYdpgr7kQ&_nc_zt=23&_nc_ht=scontent.fhan15-1.fna&_nc_gid=6Dut5TbBeQsQ3VJMHFPcSg&oh=00_AfihNpPeUa1HPtCSET8de7wPbpu2BsdsGGMfszm98t5WMA&oe=690CFACD" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
-</div>
+
 **Phạm Thị Huyền Trang**  
 🎓 CNTT 16-05  
 🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam   
