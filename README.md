@@ -313,7 +313,7 @@ python app.py
 
 ## 👨‍💻 Tác giả
 
-<img width="150" height="150" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
+<img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
 
 **Phạm Thị Huyền Trang**  
 🎓 CNTT 16-05  
