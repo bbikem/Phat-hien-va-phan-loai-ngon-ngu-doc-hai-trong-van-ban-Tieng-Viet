@@ -312,13 +312,15 @@ python app.py
 <div align="center">
 
 ## Tác giả
-<img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
+<img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:20%;">
 <h6>
     <a href="https://www.facebook.com/hichanzz/">
      ❤️ Phạm Thị Huyền Trang ❤️
     </a>
 </h6>
+
 🎓 CNTT 16-05 
+
 🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam  
 
 [![Email](https://img.shields.io/badge/Email-bbikemcutie@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bbikemcutie@gmail.com)
