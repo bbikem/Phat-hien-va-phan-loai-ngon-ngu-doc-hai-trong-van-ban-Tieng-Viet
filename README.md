@@ -1,11 +1,11 @@
 <h2 align="center">
     <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
-    🎓 Khoa Công nghệ thông tin (Đại học Đại Nam)
+    🎓 Khoa Công nghệ thông tin (Đại học Đại Nam) 🎓
     </a>
 </h2>
 
 <h2 align="center">
-  🤖🇻🇳 Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt
+  🤖🇻🇳 Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt 🤖🇻🇳
 </h2>
 
 <div align="center">
@@ -15,7 +15,6 @@
         <img width="170" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/41ef702b-3d6e-4ac4-beac-d8c9a874bca9" />
     </p>
 
-    <!-- Badges thương hiệu -->
 <p align="center">
   <a href="https://dainam.edu.vn">
     <img alt="DaiNam University"
