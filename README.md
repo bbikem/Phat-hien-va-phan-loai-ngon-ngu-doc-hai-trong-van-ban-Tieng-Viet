@@ -16,33 +16,46 @@
     </p>
 
     <!-- Badges thương hiệu -->
-    [![DaiNam University](https://img.shields.io/badge/DaiNam_University-ff6b35?style=flat-square)](https://dainam.edu.vn)
-    [![Faculty of IT](https://img.shields.io/badge/Faculty_of_IT-0066cc?style=flat-square)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
-    [![AIoTLab](https://img.shields.io/badge/AIoTLab-28a745?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/DNUAIoTLab)
+<p align="center">
+  <a href="https://dainam.edu.vn">
+    <img alt="DaiNam University"
+         src="https://img.shields.io/badge/DaiNam_University-ff6b35?style=flat-square">
+  </a>
+  <a href="https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin">
+    <img alt="Faculty of IT"
+         src="https://img.shields.io/badge/Faculty_of_IT-0066cc?style=flat-square">
+  </a>
+  <a href="https://www.facebook.com/DNUAIoTLab">
+    <img alt="AIoTLab"
+         src="https://img.shields.io/badge/AIoTLab-28a745?style=flat-square&logo=facebook&logoColor=white">
+  </a>
+</p>
 
-    <!-- Badges công nghệ chính (đầy màu sắc & có icon) -->
-    <br/>
+<!-- Badges công nghệ chính (đầy màu sắc & có icon) -->
+<p align="center">
+  <a href="https://www.python.org/"><img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"></a>
+  <a href="https://flask.palletsprojects.com/"><img alt="Flask" src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white"></a>
+  <a href="https://scikit-learn.org/"><img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white"></a>
+  <a href="https://regex101.com/"><img alt="Regex" src="https://img.shields.io/badge/Regex-8A2BE2?style=flat-square"></a>
+  <a href="https://www.chartjs.org/"><img alt="Chart.js" src="https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white"></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000"></a>
+  <img alt="TF-IDF" src="https://img.shields.io/badge/TF--IDF-0E7C7B?style=flat-square">
+  <img alt="Logistic Regression" src="https://img.shields.io/badge/Logistic_Regression-4C8EDA?style=flat-square">
+  <img alt="Hybrid Model" src="https://img.shields.io/badge/Hybrid_Model-FF7F50?style=flat-square">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white">
+  <img alt="Gunicorn" src="https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white">
+  <img alt="Nginx" src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white">
+</p>
 
-    [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
-    [![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
-    [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
-    [![Regex](https://img.shields.io/badge/Regex-8A2BE2?style=flat-square&logo=regular-expression&logoColor=white)](https://regex101.com/)
-    [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
-    [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
-    [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-    [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-    [![TF-IDF](https://img.shields.io/badge/TF--IDF-0E7C7B?style=flat-square)](#)
-    [![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-4C8EDA?style=flat-square)](#)
-    [![Hybrid](https://img.shields.io/badge/Hybrid_Model-FF7F50?style=flat-square)](#)
-    [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](#)
-    [![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)](#)
-    [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](#)
+<!-- Badges trạng thái/UX -->
+<p align="center">
+  <img alt="Made with Love" src="https://img.shields.io/badge/Made_with-❤️-ff69b4?style=flat-square">
+  <img alt="Status: Demo ready" src="https://img.shields.io/badge/Status-Demo_ready-00c853?style=flat-square">
+  <img alt="Language: Vietnamese" src="https://img.shields.io/badge/Language-Vietnamese-22b8cf?style=flat-square">
+</p>
 
-    <br/>
-    <!-- Badges trạng thái/UX -->
-    [![Made with Love](https://img.shields.io/badge/Made_with-❤️-ff69b4?style=flat-square)](#)
-    [![Demo Ready](https://img.shields.io/badge/Status-Demo_ready-00c853?style=flat-square)](#)
-    [![Language](https://img.shields.io/badge/Language-Vietnamese-22b8cf?style=flat-square)](#)
 </div>
 
 ## 1️⃣ Mục lục
@@ -173,15 +186,14 @@ Màu chủ đạo: **xanh – cam – trắng** theo đúng UI bạn đang dùng
 │  └─ screenshot-guide-exact.svg
 └─ README.md
 
-
 ```
 
-## VI. Sơ đồ kiến trúc
+## 7️⃣ Sơ đồ kiến trúc
 
 Hệ thống gồm 4 lớp chính:
 
 1. **Giao diện người dùng (Frontend)**
-   - File: `templates/index.html`, `static/style.css`, `static/app.js`
+   - 🧩 File: `templates/index.html`, `static/style.css`, `static/app.js`
    - Nhiệm vụ:
      - Cho phép **nhập 1 đoạn** hoặc **tải lên file** (CSV/TXT/XLSX/DOCX/PDF)
      - Gửi request tới API Flask
@@ -189,7 +201,7 @@ Hệ thống gồm 4 lớp chính:
      - Cho phép người dùng chỉnh **ngưỡng cảnh báo** và **bật tắt Redact**
 
 2. **API & Điều phối (Flask Backend)**
-   - File: `app.py`
+   - 🔗 File: `app.py`
    - Endpoint chính:
      - `POST /api/predict` – phân tích 1 đoạn
      - `POST /api/upload` – phân tích nhiều dòng (tối đa 200)
@@ -200,7 +212,7 @@ Hệ thống gồm 4 lớp chính:
      - Đóng gói dữ liệu trả về đúng format cho UI
 
 3. **Tầng xử lý & mô hình (Detection Engine)**
-   - Các bước:
+   - Các bước: 🧹 Tiền xử lý → 🔎 Lexicon/Regex → 📈 TF-IDF + LR → 🔗 Gộp span → 🎚️ Luật hybrid.
      1. **Tiền xử lý**: hạ chữ, chuẩn hoá viết tắt/slang (`dm`, `đm`, `vcl`, …)
      2. **Dò từ điển (lexicon + regex)**: tìm nhanh các từ/cụm xúc phạm → sinh **span**
      3. **Mô hình ML nhẹ**: TF-IDF (1–2 gram) + Logistic Regression → sinh **xác suất xúc phạm**
@@ -210,7 +222,7 @@ Hệ thống gồm 4 lớp chính:
    - Điểm mạnh: nhanh, dễ giải thích, phù hợp web real-time
 
 4. **Dữ liệu & Báo cáo**
-   - Thư mục: `data/` (ví dụ: `data_train.csv`, `data_eval.csv`)
+   - 🗂️ Thư mục: `data/` (ví dụ: `data_train.csv`, `data_eval.csv`)
    - Dùng để:
      - Huấn luyện / thử nghiệm mô hình cục bộ
      - Xuất kết quả dạng CSV/DOCX để nộp báo cáo
@@ -220,12 +232,12 @@ Hệ thống gồm 4 lớp chính:
 
 ---
 
-## VII. Cách cài đặt
+## 8️⃣ Cách cài đặt
 
 ### 1. Yêu cầu
-- Python **3.9+**
-- pip
-- Khuyến nghị: môi trường ảo `venv`
+- Python **3.9+** 🐍
+- pip 📦
+- Khuyến nghị: môi trường ảo `venv` 🧪
 
 ### 2. Các bước cài đặt
 
@@ -256,24 +268,24 @@ python app.py
 
 ```
 
-## VIII. Hướng dẫn sử dụng
+## 9️⃣ Hướng dẫn sử dụng
 
 ### A. Phân tích 1 đoạn
-1. Vào trang chính.
-2. Nhập đoạn văn vào ô “Phân tích 1 đoạn”.
-3. Bấm nút “Phân tích”.
-4. Xem kết quả ở box “Kết quả”:
+1. 🏠 Vào trang chính.
+2. ✍️ Nhập đoạn văn vào ô “Phân tích 1 đoạn”.
+3. ▶️ Bấm nút “Phân tích”.
+4. 👀 Xem kết quả ở box “Kết quả”:
    - Kết luận: Xúc phạm / Không
    - Xác suất (%)
    - Đoạn văn đã highlight (màu vàng nhạt, không gạch chân)
    - Biểu đồ doughnut (Cam = Xúc phạm, Xanh = Không)
-5. Muốn làm lại → bấm “Xóa”.
+5. 🔄 Muốn làm lại → bấm “Xóa”.
 
 ### B. Phân tích file (tối đa 200 dòng)
-1. Ở box “Phân tích file (CSV / TXT / XLSX / DOCX / PDF)” → bấm chọn tệp.
+1. Ở box 📂 “Phân tích file (CSV / TXT / XLSX / DOCX / PDF)” → bấm chọn tệp.
 2. Chọn file góp ý / phản hồi của sinh viên.
 3. Bấm “Tải lên & phân tích”.
-4. Hệ thống sẽ:
+4. Hệ thống sẽ: 📋 Bảng kết quả + 🍩 biểu đồ tổng + ⤴️ xuất CSV/DOCX.
    - Đọc tối đa 200 dòng
    - Phân tích từng dòng
    - Hiển thị bảng: STT, xác suất, kết luận, văn bản
@@ -282,7 +294,7 @@ python app.py
 
 
 ### C. Điều chỉnh ngưỡng cảnh báo
-- Tại khung “Ngưỡng cảnh báo: 50%” → kéo thanh trượt.
+- 🎚️ Tại khung “Ngưỡng cảnh báo: 50%” → kéo thanh trượt.
 - Quy tắc:
   + Nếu xác suất >= ngưỡng → Xúc phạm
   + Nếu có span từ điển → vẫn Xúc phạm dù xác suất < ngưỡng
@@ -290,35 +302,35 @@ python app.py
 
 ### D. Bật/tắt Redact
 - Gạt nút “Ẩn phần bị gắn cờ (***, Redact)”.
-- Khi bật: phần độc hại sẽ hiển thị dạng ***.
+- 🕶️ Khi bật: phần độc hại sẽ hiển thị dạng ***.
 - Phù hợp khi demo trên lớp hoặc in báo cáo.
 
 ---
 
-## IX. Hướng mở rộng
-1. Phân loại đa lớp:
+## 🔟 Hướng mở rộng
+1. 🧩 Phân loại đa lớp:
    - insult / profanity / hate / harassment / threat
    - UI hiển thị chip màu theo từng lớp
 
-2. Quản lý từ điển ngay trên web (Lexicon Manager):
+2. 🗃️ Quản lý từ điển ngay trên web (Lexicon Manager):
    - Thêm / xóa / sửa từ cấm
    - Import / Export dạng JSON
    - Lưu phiên bản theo thời gian
 
-3. Mô hình nâng cao:
+3. 🧠 Mô hình nâng cao:
    - Thêm PhoBERT + token-classification để lấy span chính xác hơn
    - Vẫn giữ TF-IDF + Logistic làm fallback chạy nhanh
 
-4. Evaluate trong giao diện:
+4. 📈 Evaluate trong giao diện:
    - Thêm 1 card “Đánh giá”
    - Upload file đã gán nhãn → tính Precision / Recall / F1 / AUC
    - Vẽ đường PR / ROC bằng Chart.js
 
-5. Xuất nhiều định dạng:
+5. 📤 Xuất nhiều định dạng:
    - CSV, DOCX, JSONL, HTML có `<mark>`
    - Tùy chọn ẩn thông tin nhạy cảm (PII-redaction) trước khi export
 
-6. Triển khai thực tế:
+6. 🚀 Triển khai thực tế:
    - Viết Dockerfile
    - Chạy bằng Gunicorn / Nginx
    - Thêm xác thực nếu dùng nội bộ
@@ -327,7 +339,7 @@ python app.py
 
 <div align="center">
 
-## Tác giả
+## 👩‍💻Tác giả👩‍💻
 <img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:20%;">
 <h4>
     <a href="https://www.facebook.com/hichanzz/">
@@ -336,8 +348,8 @@ python app.py
 </h4>
 
 <h5>
-<p>🎓 CNTT 16-05 </p>
-<p>🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam </p>
+<p>🎓CNTT 16-05🎓 </p>
+<p>🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam 🏛️</p>
 </h5>
 
 
