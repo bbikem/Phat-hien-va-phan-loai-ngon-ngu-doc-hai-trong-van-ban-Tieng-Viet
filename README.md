@@ -350,6 +350,7 @@ python app.py
 <p>🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam 🏛️</p>
 </h4>
 
+<br>
 
 [![Email](https://img.shields.io/badge/Email-bbikemcutie@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bbikemcutie@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-bbikem-black?style=for-the-badge&logo=github&logoColor=white)](https://github.com/bbikem)
