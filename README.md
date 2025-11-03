@@ -315,7 +315,7 @@ python app.py
 
 <img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
 
-**Phạm Thị Huyền Trang**  
+**[Phạm Thị Huyền Trang] (https://www.facebook.com/hichanzz/)**  
 🎓 CNTT 16-05  
 🏛️ Khoa Công nghệ thông tin - Trường Đại học Đại Nam   
 
