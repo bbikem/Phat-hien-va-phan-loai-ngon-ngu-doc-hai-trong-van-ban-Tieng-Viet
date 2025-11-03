@@ -315,7 +315,7 @@ python app.py
 
 <img width="200" height="200" src="https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet/blob/main/avt.png" alt="Phạm Thị Huyền Trang" style="border-radius:50%;">
 
-![❤️ Phạm Thị Huyền Trang ❤](https://www.facebook.com/hichanzz/)
+[❤️ Phạm Thị Huyền Trang ❤️](https://www.facebook.com/hichanzz/)
 
 <h6 align="center">
     <a href="[https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin](https://www.facebook.com/hichanzz/)">
