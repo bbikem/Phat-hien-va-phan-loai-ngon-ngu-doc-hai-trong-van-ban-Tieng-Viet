@@ -5,7 +5,7 @@
 </h2>
 
 <h2 align="center">
-  🤖 Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt 🇻🇳
+  🤖 Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt 🤖
 </h2>
 
 <div align="center">
