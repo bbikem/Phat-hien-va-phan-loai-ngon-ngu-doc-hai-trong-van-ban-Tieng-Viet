@@ -3,9 +3,11 @@
     🎓 Khoa Công nghệ thông tin (Đại học Đại Nam)
     </a>
 </h2>
+
 <h2 align="center">
-  Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt
+  🤖🇻🇳 Phát hiện và phân loại ngôn ngữ độc hại trong văn bản Tiếng Việt
 </h2>
+
 <div align="center">
     <p align="center">
         <img width="200" alt="dnu_logo" src="https://github.com/user-attachments/assets/2bcb1a6c-774c-4e7d-b14d-8c53dbb4067f" />
@@ -13,128 +15,141 @@
         <img width="170" alt="aiotlab_logo" src="https://github.com/user-attachments/assets/41ef702b-3d6e-4ac4-beac-d8c9a874bca9" />
     </p>
 
-[![DaiNam University](https://img.shields.io/badge/DaiNam_University-ff6b35?style=flat-square)](https://dainam.edu.vn)
-[![Faculty of IT](https://img.shields.io/badge/Faculty_of_IT-0066cc?style=flat-square)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
-[![AIoTLab](https://img.shields.io/badge/AIoTLab-28a745?style=flat-square&logo=facebook)](https://www.facebook.com/DNUAIoTLab)
+    <!-- Badges thương hiệu -->
+    [![DaiNam University](https://img.shields.io/badge/DaiNam_University-ff6b35?style=flat-square)](https://dainam.edu.vn)
+    [![Faculty of IT](https://img.shields.io/badge/Faculty_of_IT-0066cc?style=flat-square)](https://dainam.edu.vn/vi/khoa-cong-nghe-thong-tin)
+    [![AIoTLab](https://img.shields.io/badge/AIoTLab-28a745?style=flat-square&logo=facebook&logoColor=white)](https://www.facebook.com/DNUAIoTLab)
 
+    <!-- Badges công nghệ chính (đầy màu sắc & có icon) -->
+    <br/>
+
+    [![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+    [![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)](https://flask.palletsprojects.com/)
+    [![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
+    [![Regex](https://img.shields.io/badge/Regex-8A2BE2?style=flat-square&logo=regular-expression&logoColor=white)](https://regex101.com/)
+    [![Chart.js](https://img.shields.io/badge/Chart.js-FF6384?style=flat-square&logo=chartdotjs&logoColor=white)](https://www.chartjs.org/)
+    [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+    [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+    [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+    [![TF-IDF](https://img.shields.io/badge/TF--IDF-0E7C7B?style=flat-square)](#)
+    [![Logistic Regression](https://img.shields.io/badge/Logistic_Regression-4C8EDA?style=flat-square)](#)
+    [![Hybrid](https://img.shields.io/badge/Hybrid_Model-FF7F50?style=flat-square)](#)
+    [![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)](#)
+    [![Gunicorn](https://img.shields.io/badge/Gunicorn-499848?style=flat-square&logo=gunicorn&logoColor=white)](#)
+    [![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)](#)
+
+    <br/>
+    <!-- Badges trạng thái/UX -->
+    [![Made with Love](https://img.shields.io/badge/Made_with-❤️-ff69b4?style=flat-square)](#)
+    [![Demo Ready](https://img.shields.io/badge/Status-Demo_ready-00c853?style=flat-square)](#)
+    [![Language](https://img.shields.io/badge/Language-Vietnamese-22b8cf?style=flat-square)](#)
 </div>
 
-## Mục lục
-I. Giới thiệu hệ thống
-
-II. Mục tiêu
-
-III. Công nghệ sử dụng
-
-IV. Chức năng của hệ thống
-
-V. Cấu trúc dự án
-
-VI. Sơ đồ kiến trúc
-
-VII. Cách cài đặt
-
-VIII. Hướng dẫn sử dụng
-
+## 1️⃣ Mục lục
+I. Giới thiệu hệ thống  
+II. Mục tiêu  
+III. Công nghệ sử dụng  
+IV. Chức năng của hệ thống  
+V. Cấu trúc dự án  
+VI. Sơ đồ kiến trúc  
+VII. Cách cài đặt  
+VIII. Hướng dẫn sử dụng  
 IX. Hướng mở rộng
 
 ---
 
-## I. Giới thiệu hệ thống
+## 2️⃣ Giới thiệu hệ thống
 
 Đây là hệ thống **web demo** dùng để:
-- Phát hiện xem **một đoạn văn tiếng Việt** có chứa **ngôn ngữ độc hại / xúc phạm / tiêu cực** hay không.
-- **Tô sáng (highlight)** đúng những **từ/cụm từ** bị coi là độc hại để người duyệt/bộ phận quản lý nội dung xem rất nhanh.
-- Hỗ trợ cả **kiểm tra từng đoạn** và **kiểm tra theo lô (upload file)**, phù hợp cho bài tập, đồ án, hoặc mô-đun kiểm duyệt nội dung nội bộ.
+- 🔎 Phát hiện xem **một đoạn văn tiếng Việt** có chứa **ngôn ngữ độc hại / xúc phạm / tiêu cực** hay không.
+- ✨ **Tô sáng (highlight)** đúng những **từ/cụm từ** bị coi là độc hại để người duyệt/bộ phận quản lý nội dung xem rất nhanh.
+- 📁 Hỗ trợ cả **kiểm tra từng đoạn** và **kiểm tra theo lô (upload file)**, phù hợp cho bài tập, đồ án, hoặc mô-đun kiểm duyệt nội dung nội bộ.
 
 Hệ thống được thiết kế **theo hướng dễ giải thích** (explainable): không chỉ trả về “câu này bẩn”, mà còn chỉ rõ **vì sao bẩn** (vị trí, từ điển nào khớp, mô hình đoán ra hay do viết tắt).
 
 Màu chủ đạo: **xanh – cam – trắng** theo đúng UI bạn đang dùng:  
-- Xanh: thanh header, nút chính  
-- Cam: tiêu đề box (“Phân tích 1 đoạn”, “Phân tích file…”, “Kết quả”)  
-- Trắng: nền card, phần văn bản highlight màu vàng nhạt (không gạch chân)
+- 🟦 Xanh: thanh header, nút chính  
+- 🟧 Cam: tiêu đề box (“Phân tích 1 đoạn”, “Phân tích file…”, “Kết quả”)  
+- ⬜ Trắng: nền card, phần văn bản highlight màu vàng nhạt (không gạch chân)
 
 ---
 
-
-## II. Mục tiêu
-- **Phát hiện tự động** các đoạn phản hồi/sinh viên/bình luận có ngôn từ độc hại.
-- **Highlight chính xác** các **span** từ/cụm từ vi phạm để người dùng nhận biết ngay.
-- Hỗ trợ **ngưỡng cảnh báo** để tuỳ ý siết/chùng (ví dụ 50%, 70%…).
-- Hỗ trợ **phân tích hàng loạt** (tối đa 200 dòng) để giáo viên/quản trị có thể rà file góp ý lớn.
-- Trả kết quả theo **định dạng chuẩn** (CSV / DOCX) để đính kèm báo cáo hoặc nộp môn.
-- Làm mẫu **đề tài “phát hiện và phân loại ngôn ngữ độc hại trong văn bản tiếng Việt”** ở mức có thể demo, trình bày, và mở rộng.
+## 3️⃣ Mục tiêu
+- 🤖 **Phát hiện tự động** các đoạn phản hồi/sinh viên/bình luận có ngôn từ độc hại.
+- 🖍️ **Highlight chính xác** các **span** từ/cụm từ vi phạm để người dùng nhận biết ngay.
+- 🎚️ Hỗ trợ **ngưỡng cảnh báo** để tuỳ ý siết/chùng (ví dụ 50%, 70%…).
+- 📦 Hỗ trợ **phân tích hàng loạt** (tối đa 200 dòng) để giáo viên/quản trị có thể rà file góp ý lớn.
+- 📤 Trả kết quả theo **định dạng chuẩn** (CSV / DOCX) để đính kèm báo cáo hoặc nộp môn.
+- 🧪 Làm mẫu **đề tài “phát hiện và phân loại ngôn ngữ độc hại trong văn bản tiếng Việt”** ở mức có thể demo, trình bày, và mở rộng.
 
 ---
 
-## III. Công nghệ sử dụng
+## 4️⃣ Công nghệ sử dụng
 - **Backend**: `Python` + `Flask`
-  - REST API: `/api/predict`, `/api/upload`, `/api/export_docx`
-  - Xử lý file: CSV, TXT, (có thể mở rộng XLSX/DOCX/PDF)
+  - 🔗 REST API: `/api/predict`, `/api/upload`, `/api/export_docx`
+  - 🗂️ Xử lý file: CSV, TXT, (có thể mở rộng XLSX/DOCX/PDF)
 - **Xử lý/ngôn ngữ**:
-  - Tiền xử lý tiếng Việt đơn giản: lower, bỏ khoảng trắng thừa
-  - **Từ điển (lexicon) + regex** ngôn từ xúc phạm / viết tắt phổ biến (`dm`, `đm`, `vcl`, `thối lợm`, …)
-  - **ML nhẹ**: TF-IDF (1–2 gram) + Logistic Regression → cho **xác suất xúc phạm**
-  - **Hybrid** = (prob ≥ ngưỡng) **hoặc** (có từ trong lexicon) → phù hợp cho web real-time
-- **Frontend**: `HTML5`, `CSS3`, `JavaScript` (file tách riêng `index.html`, `style.css`, `app.js`)
-  - UI theo thẻ/card
-  - **Chart.js** (hoặc canvas tương đương) để vẽ **biểu đồ doughnut**: cam = xúc phạm, xanh = không
-- **Tài liệu/ảnh**: SVG sơ đồ kiến trúc trong thư mục `docs/`
+  - 🧹 Tiền xử lý tiếng Việt đơn giản: lower, bỏ khoảng trắng thừa
+  - 🧾 **Từ điển (lexicon) + regex** ngôn từ xúc phạm / viết tắt phổ biến (`dm`, `đm`, `vcl`, `thối lợm`, …)
+  - 📈 **ML nhẹ**: TF-IDF (1–2 gram) + Logistic Regression → cho **xác suất xúc phạm**
+  - 🔀 **Hybrid** = (prob ≥ ngưỡng) **hoặc** (có từ trong lexicon) → phù hợp cho web real-time
+- **Frontend**: `HTML5`, `CSS3`, `JavaScript`
+  - 🧩 UI theo thẻ/card
+  - 🥧 **Chart.js** (canvas) để vẽ **biểu đồ doughnut**: cam = xúc phạm, xanh = không
+- **Tài liệu/ảnh**: 🖼️ SVG sơ đồ kiến trúc trong `docs/`
 
 ---
 
-## IV. Chức năng của hệ thống
+## 5️⃣ Chức năng của hệ thống
 
 ### 1. Phân tích 1 đoạn
-- Ô nhập văn bản (“Đoạn phản hồi”)
-- Nút **“Phân tích”** → gọi API `/api/predict`
-- Nút **“Xóa”** → xoá nội dung + kết quả
-- Kết quả:
-  - Kết luận: **Xúc phạm / Không**
-  - Xác suất (%)
-  - Danh sách **spans** (từ/cụm từ vi phạm) kèm vị trí
-  - Đoạn văn đã **highlight** (`<mark>` màu vàng nhạt)
-  - **Biểu đồ doughnut** (cam/xanh)
+- 📝 Ô nhập văn bản (“Đoạn phản hồi”)
+- ▶️ Nút **“Phân tích”** → gọi API `/api/predict`
+- 🧽 Nút **“Xóa”** → xoá nội dung + kết quả
+- ✅ Kết quả:
+  - 🧭 Kết luận: **Xúc phạm / Không**
+  - 📊 Xác suất (%)
+  - 🧩 Danh sách **spans** (từ/cụm từ vi phạm) kèm vị trí
+  - ✨ Đoạn văn đã **highlight** (`<mark>` màu vàng nhạt)
+  - 🥧 **Biểu đồ doughnut** (cam/xanh)
 
 ### 2. Phân tích file (batch)
-- Chọn tệp: **CSV / TXT / XLSX / DOCX / PDF**
-- Nút **“Tải lên & phân tích”**
-- Hệ thống đọc tối đa **200 dòng**
-- Hiển thị:
+- 📂 Chọn tệp: **CSV / TXT / XLSX / DOCX / PDF**
+- ⬆️ Nút **“Tải lên & phân tích”**
+- 🔢 Hệ thống đọc tối đa **200 dòng**
+- 📋 Hiển thị:
   - Bảng tổng hợp: STT, Xác suất, Kết luận, Văn bản
-  - Biểu đồ doughnut tổng (tỷ lệ xúc phạm / không)
-  - Có thể xuất CSV / DOCX
+  - 🥧 Biểu đồ doughnut tổng (tỷ lệ xúc phạm / không)
+  - ⤴️ Có thể xuất CSV / DOCX
 
 ### 3. Ngưỡng cảnh báo
-- Slider (ví dụ mặc định 50%)
+- 🎚️ Slider (ví dụ mặc định 50%)
 - Rule: **kết luận = xúc phạm** nếu  
   - `probability ≥ threshold` **hoặc**
   - Có ít nhất 1 span từ từ điển / viết tắt
-- Dùng để test trong demo: kéo slider và chạy lại để xem kết quả đổi
+- 🧪 Dùng để test trong demo: kéo slider và chạy lại để xem kết quả đổi
 
 ### 4. Redact (ẩn từ bẩn)
-- Checkbox / toggle: “Ẩn phần bị gắn cờ (***, Redact)”
-- Nếu bật: những đoạn bị highlight sẽ được thay bằng `***` khi hiển thị
-- Phù hợp khi đưa ra màn hình lớn/trước lớp
+- 🕶️ Checkbox / toggle: “Ẩn phần bị gắn cờ (***, Redact)”
+- Khi bật: những đoạn bị highlight sẽ được thay bằng `***` khi hiển thị
+- 👩‍🏫 Phù hợp khi đưa ra màn hình lớn/trước lớp
 
 ### 5. Biểu đồ trực quan
-- Dạng **doughnut** nhỏ gọn
+- 🍩 Dạng **doughnut** nhỏ gọn
 - Màu:
-  - **Cam**: xúc phạm
-  - **Xanh**: không
-- Ở mode batch: biểu đồ tổng
-- Ở mode đơn lẻ: biểu đồ theo 1 câu
+  - 🟧 **Cam**: xúc phạm
+  - 🟦 **Xanh**: không
+- 📊 Ở mode batch: biểu đồ tổng
+- 📈 Ở mode đơn lẻ: biểu đồ theo 1 câu
 
 ### 6. Xuất báo cáo
-- Backend đã chuẩn bị logic để xuất tài liệu có highlight
-- Có thể mở rộng thêm:
-  - CSV (client)
-  - DOCX (server)
-  - JSONL (gắn nhãn)
+- 🧾 Backend đã chuẩn bị logic để xuất tài liệu có highlight
+- 🧰 Có thể mở rộng thêm:
+  - CSV (client), DOCX (server), JSONL (gắn nhãn)
 
 ---
 
-## V. Cấu trúc dự án
+## 6️⃣ Cấu trúc dự án
 
 ```text
 .
@@ -150,13 +165,14 @@ Màu chủ đạo: **xanh – cam – trắng** theo đúng UI bạn đang dùng
 │  ├─ data_train.csv       # (tuỳ chọn) dữ liệu huấn luyện bạn có
 │  └─ data_eval.csv        # dữ liệu đánh giá mẫu để chạy script
 ├─ scripts/
-│  └─ eval_offensive.py    # script đánh giá P/R/F1/AUC cho 3 mô hình: Lexicon, ML, Hybrid
+│  └─ eval_offensive.py    # script đánh giá P/R/F1/AUC cho 3 mô hình
 ├─ docs/
-│  ├─ architecture_dainam.svg          # sơ đồ kiến trúc
-│  ├─ screenshot-home-exact.svg        # giao diện trang chính
-│  ├─ screenshot-batch-exact.svg       # giao diện phân tích file
-│  └─ screenshot-guide-exact.svg       # giao diện hướng dẫn sử dụng
-└─ README.md               # (file bạn đang đọc) 
+│  ├─ architecture_dainam.svg
+│  ├─ screenshot-home-exact.svg
+│  ├─ screenshot-batch-exact.svg
+│  └─ screenshot-guide-exact.svg
+└─ README.md
+
 
 ```
 
