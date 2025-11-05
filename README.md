@@ -163,7 +163,7 @@ Màu chủ đạo: **xanh – cam – trắng** theo đúng UI bạn đang dùng
 ## 6️⃣ Cấu trúc dự án
 
 ```text
-.
+.Data
 ├─ app.py                  # Flask app, route API, load model, xử lý file
 ├─ requirements.txt        # Thư viện Python cần cài
 ├─ templates/
@@ -241,7 +241,7 @@ Hệ thống gồm 4 lớp chính:
 
 ```bash
 # 1) Clone dự án
-git clone <link-github-cua-ban>
+git clone <https://github.com/bbikem/Phat-hien-va-phan-loai-ngon-ngu-doc-hai-trong-van-ban-Tieng-Viet>
 cd <Chuyen_doi_so>
 cd <Data>
 
